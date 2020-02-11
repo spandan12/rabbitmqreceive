@@ -24,7 +24,7 @@ func main() {
 func rabbitMQ(url string) error {
 	rbm, err := rabbitmq.New(&rabbitmq.Config{
 		URL:          url,
-		Exchange:     "analysis",
+		Exchange:     "analysisa",
 		ExchangeType: "topic",
 	})
 	if err != nil {

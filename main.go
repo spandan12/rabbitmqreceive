@@ -14,7 +14,7 @@ const (
 
 func main() {
 	url := "amqp://guest:guest@localhost:5672/"
-	fmt.Println("rabbitmq webhooks")
+	fmt.Println("rabbitmq webhooksa")
 	if err := rabbitMQ(url); err != nil {
 		fmt.Println("error:", err)
 	}
